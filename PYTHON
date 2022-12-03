@@ -1,0 +1,169 @@
+# Las variables se almacenan en la memoria ram, con lo cual, cuando se reejecuta el código no vuelve a tener la misma dirección de memoria.
+    #Python es un lenaguaje dinamico y todos sus tipos de datos son objetos!!!!
+# Una vez que se carga la clase en memoria, recien ahi puedo crear objetos.
+# Self hace referencia a objetos
+# En clases, el contexto dinamico puede acceder al contexto estatico pero no al reves, el estatico no puede acceder al dinamico.
+
+
+#Equals: a == b
+#Not Equals: a != b
+#Less than: a < b
+#Less than or equal to: a <= b
+#Greater than: a > b
+#Greater than or equal to: a >= b
+
+#Tipos de datos en Python (Todos los tipos de datos tambien son almacenados en CLASES)
+#Numeric (integer, complex number, float)
+#Dictionary
+#Boolean
+#Set
+#Sequence type (strings, list, tuple)
+
+# Direcciones de memoria print(id(x)))
+
+#Tipos de datos en Python (Todos los tipos de datos tambien son almacenados en CLASES)
+#Numeric (integer, complex number, float)
+#Dictionary
+#Boolean
+#Set
+#Sequence type (strings, list, tuple)
+
+#para saber que tipo de dato contiene una variable: print(type(x))
+
+########## LAS VARIABLES EN PYTHON SON DINAMICAS!!!!
+
+#Booleano (siempre respetar mayusculas y minusculas)
+
+#Resumen de tipos de datos
+#tipo entero x=10
+#tipo flotante x=11.5
+#tipo string x='Hola papá'
+#tipo booleano x=True x=False
+
+#Concatenar cadena de caracteres con el '+'
+
+# Sirve para imprimir un vector o matriz : print("mi grupo favorito es:",miGrupoFavorito)
+
+# Estructura if
+#if miVariable:
+#	print("verdadero")
+#else:
+#	print("falso")
+
+#procesar la entrada de usuario : input('Ingrese valor del 1 al 10')
+
+#nueva forma de imprimir datos (la mas uilizada) : print(f'El resultado es {suma} ')
+
+# Operadores logicos (and, or, not)
+
+n1 = int(input("Proporcionar un valor entre 1 y 3"))
+
+# operador if else simplificado : 
+# print(f'Condición verdadera') if condicion else print(f'Condición falsa')
+
+# ELIF
+#if 1 <= mes <= 3:
+#	estacion = 'Verano'
+#elif 4 <= mes <= 6:
+#	estacion = 'Otoño'
+#elif 7 <= mes <= 9:
+#	estacion = 'Invierno'
+#elif 10 <= mes <= 12:
+#	estacion = 'Primavera'
+#else:
+#	estacion = 'Valor incorrecto'
+
+#indica que esta variable no contiene ningun valor
+#estacion = None 
+
+# Ciclo while
+# while vari == 1:
+#	num = num + 1
+#	print(f'El valor es correcto y la suma es {num}')
+#	vari = int(input('Ingrese un valor: '))
+#else:
+#	print(f'Fin del ciclo while.')
+
+# Ciclo for (Se utiliza mas para listar una cadena de datos)
+# Una cadena es un arreglo (conjunto de datos) de caracteres. Es decir print(cadena[1]) es "o"
+#cadena = 'Hola' 
+#for letra in cadena:
+#	print(f'La letra correspondiente a la cadena "{cadena}" es: {letra}')
+#else:
+#	print('Fin de la cadena')
+
+#Palabra reservada continue
+#for i in range(6):
+#	if i % 2 != 0:
+#		continue # Continue ejecuta la siguiente iteracion | Brake sale de todo
+#	print(f'Valor: {i}')
+
+
+# Listas - Conjunto de elementos
+#nombre = ['Juan','Carla','Ricardo','Maria',1,True] 
+# En python, las listas pueden tener distintos tipos de datos, ordenados por indice
+#Accediendo a los elementos de manera inversa : 
+#print(nombre[-1])
+
+#Acceder a rangos de una lista : 
+#print(nombre[0:2]) # No incluye el indice 2
+
+#Ir del inicio de la lista al indice sin incluirlo : 
+#print(nombre[:3])
+
+#Desde el indice indicado hasta el final de nuestra lista :
+#print(nombre[1:]) 
+
+#nombre[3] = 'Ivone'
+
+#print(nombre[1:]) 
+
+# Preguntar largo de una lista
+#print(len(nombre))
+
+#Agregar un elemento a la lista
+#nombre.append('Rigoberto')
+#print(nombre)
+
+#Insertar un elemento en un indice en especifico
+#nombre.insert(1,'Octavio')
+#print(nombre)
+
+#Remover un elemento de la lista
+#nombre.remove('Octavio')
+#print(nombre)
+
+#Remover el ultimo valor agregado a la lista
+#nombre.pop()
+#print(nombre)
+
+#Eliminar un elemento en un indice indicado
+#del nombre[0]
+#print(nombre)
+
+#Limpiar todos los elementos de la lista
+#nombre.clear()
+#print(nombre)
+
+#Borrar la lista "nombre" por completo : 
+#del nombre
+
+# Tuplas - Es una lista a la que no se le puede borrar, insertar, agregar elementos.
+# Tipo inmutable
+
+#frutas = ('Naranja','Banana','Manzana')
+#Acceder a un elmento
+#print(frutas[0])
+
+#Navegación inversa
+#print(frutas[-1])
+
+#Acceder a un rango de valores
+#print(frutas[0:1]) #sin incluir el indice 2
+
+
+# El archivo __init__.py, se agrega automaticamente cuando creamos un python package para la compatiblidad de versiones. Esto se utiliza generalmente para versiones viejas de python.
+
+
+
+
