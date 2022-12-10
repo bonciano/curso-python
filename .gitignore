@@ -1,0 +1,6 @@
+# Desde este archivo puedo ignorar de subir por error archivos o rutas completas al repositorio
+# Por ejemplo, quiero ignorar el archivo .env (que posee variables de entorno) y el directorio parametros/ (que posee algunos parametros que no quiero que se vean):
+# .env
+# parametros/
+
+clave_github.txt
